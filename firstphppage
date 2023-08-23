@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+    color: aliceblue;
+    padding: 25px ;
+}
+@media(max-width:768px)
+{
+    body{
+        font-size: 14px;
+    }
+form{
+    display: flex; 
+}
+}
+form{
+    margin-left: auto;
+    margin-bottom: auto;
+    height: 50%;
+    padding: 25px ;
+    margin-top: 10%;
+    background-image: url("images\ \(1\).jpg");
+}
+table{
+ 
+    width: 10px;
+}
+label{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+div.centertable{
+  color: white;
+}
+    </style>
+</head>
+<body>
+  <section class="centertable">
+    <form class="center"method="post">
+        <h1>Hey ready to start</h1>
+    <h4>Just for my reference</h4>
+     <table>
+        <tr>
+          <td><label for="Name">Name</label>
+          <td><input type="text" name="Name" id="Name" required="PLEASE ENTER YOUR NAME">
+        </tr>
+        <br>
+        <tr>
+           <td><label for="Profession">Profession</label></td>
+           <td><select name="Profession"  id="Profession">
+           <option value="HR">HR</option>
+           <option value="Student">student</option></td>
+        </tr>
+        <tr>
+          <td><label for="company name">Company Name</label>
+          <td><input type="text" name="company name" id="company name">
+        </tr>
+        <tr>
+          <td><label for="email">Email</label>
+          <td><input type="email" name="email" id="email">
+        </tr>
+        <tr>
+            <td><button type="submit" id=submit name=submit>
+              <a href="homepage.html">Lets Go</a></button></td>
+        </tr>
+      </table>
+      
+    </form>
+  </section>
+</body>
+</html>
